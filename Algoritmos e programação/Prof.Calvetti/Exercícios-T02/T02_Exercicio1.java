@@ -15,7 +15,7 @@ public class T02_Exercicio1 {
         Double mediaKm = km / horas;
         Double mediaMs = mediaKm / 3.6;
 
-        String kmFormatado = String.format("%.2f", mediaKm);
+        String kmFormatado = String.format("%.2f", mediaKm); //testando esse maneira de formatação
         String msFormatado = String.format("%.2f", mediaMs);
         System.out.println("A velocidade média é: " + kmFormatado + " em Km/h" + " ou " + msFormatado + " em m/s");
 
